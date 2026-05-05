@@ -1,35 +1,65 @@
-# datasets
-bop_datasets/
-datasets/
-lmo/
-lm/
-tudl/
-itodd/
+# macOS
+.DS_Store
 
-# generated outputs
-outputs/
-output/
-templates/
-representations/
-inference/
-results/full/
-*.zip
-*.tar
-*.tar.gz
-*.npz
-*.npy
-*.pt
-*.pth
-*.ckpt
-
-# environment
-.env
+# Python
+__pycache__/
+*.pyc
 .venv/
 venv/
-__pycache__/
-.DS_Store
+env/
+conda/
+*.egg-info/
 
 # logs
 logs/
 wandb/
 *.log
+
+# datasets
+datasets/
+bop_datasets/
+lmo/
+lm/
+tudl/
+itodd/
+ho3d/
+BOP_DATASETS/
+
+# generated files
+outputs/
+output/
+results/full/
+inference/
+templates/
+representations/
+object_representations/
+rendered_templates/
+cache/
+tmp/
+
+# large binary / model / array files
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.h5
+*.obj
+*.ply
+*.stl
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+
+# secrets / local configs
+.env
+.env.*
+*.secret
