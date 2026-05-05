@@ -1,0 +1,35 @@
+# datasets
+bop_datasets/
+datasets/
+lmo/
+lm/
+tudl/
+itodd/
+
+# generated outputs
+outputs/
+output/
+templates/
+representations/
+inference/
+results/full/
+*.zip
+*.tar
+*.tar.gz
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+
+# environment
+.env
+.venv/
+venv/
+__pycache__/
+.DS_Store
+
+# logs
+logs/
+wandb/
+*.log
