@@ -2,8 +2,8 @@
 
 주제: FoundPose: Unseen Object Pose Estimation with Foundation Features  
 과목명: 스마트팩토리캡스톤디자인1  
-작성자: 수정 필요  
-학번: 수정 필요  
+작성자: 이승욱 
+학번: 2020311888  
 GitHub 주소: https://github.com/sneisial18-design/capstone-foundpose-lmo-experiment/tree/main/foundpose  
 사용한 AI 코딩 툴: Codex
 
